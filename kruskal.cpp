@@ -45,10 +45,5 @@ int main() {
 
     sort(vc.begin(), vc.end());
 
-    for (auto e: vc) {
-        if (find(e.second.first) != find(e.second.second)) {
-            cout << e.second.first + 1 << ' ' << e.second.second + 1 << endl;
-            uni(e.second.first, e.second.second);
-        }
-    }
 }
+//this line is added
